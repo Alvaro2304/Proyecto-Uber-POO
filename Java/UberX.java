@@ -11,4 +11,11 @@ package Java;
         
     }
 
+    @Override
+    void printData() {
+        // TODO Auto-generated method stub
+        super.printData();
+        System.out.println("\nBrand: "+brand+"Model: "+model);
+    }
+
 }
